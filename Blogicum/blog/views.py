@@ -55,8 +55,6 @@ def post_detail(request, id):
     return render(request, 'post_detail.html', {'post': post})
 
 
-from django.shortcuts import render
-
 def category_posts(request, category_slug):
     return render(
         request,
